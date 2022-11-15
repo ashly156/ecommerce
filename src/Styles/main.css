@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+:root {
+    --mainColor: #940D1B;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #db2b39;
+    --textColor: #eee;
+    --default: #000;
+    --paragraph: #515151;
+}
+
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 50px;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-header__login {
+    margin-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 30px !important;
+}
+
+h3 {
+    color: var(--mainColor);
+    font-size: 36px;
+    font-family: 'Poppins';
+}
+
+nav a {
+    margin: 0 1rem;
+    color: var(--default);
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+.nav-icons {
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.nav-cons_list {
+    margin-left: 20px;
+}
+
+.nav-cons_count {
+    color: var(--textColor);
+    background-color: var(--mainColor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 25%;
+    right: 2%;
+    z-index: 1;
+    font-size: 10px;
+    padding: 0px 4px;
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    display: none;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    text-align: center;
+    overflow: hidden;
+}
+
+.banner h1 {
+    font-size: 36px;
+    color: var(--mainColor);
+    padding: 35px 0 25px;
+}
+
+.banner p {
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--paragraph);
+    padding-bottom: 40px;
+}
+
+.whatToDo {
+    margin: 15% 0;
+}
+
+.whatToDo-title {
+    font-size: 24px;
+    line-height: 38px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.whatToDo-list {
+    list-style-type: none;
+    text-align: left;
+}
+
+.whatToDo-list li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.whatToDo-list-item {
+    padding-left: 20px;
+    margin-top: -5px;
+}
+
+.mission-wrapper,
+.mission-wrappers {
+    position: absolute;
+    margin: 0 3rem;
+    color: var(--textColor);
+    text-align: left;
+}
+
+.mission-wrappers {
+    top: 12%
+}
+
+.mission-wrapper {
+    top: 20%;
+}
+.mission img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.mission-image-wrap {
+    margin: 20px 15px 0;
+}
+
+.mission-wrapper,
+.mission-wrappers h5 {
+    font-size: 24px;
+}
+
+.mission-wrapper,
+.mission-wrappers p {
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--textColor);
+}
+
+
+.mission-wrappers ul {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 30px;
+    width: 80%;
+}
+
+.mission-wrappers li {
+    margin: 20px 0;
+}
+
+.corprate {
+    margin: 15% 0;
+}
+
+.corprate h3 {
+    font-size: 36px;
+    text-align: center;
+    color: var(--default);
+    font-weight: 800;
+}
+
+.corprate-wrapper {
+    margin: 50px 0;
+}
+
+.corprate-wrapper h5 {
+    font-size: 18px;
+}
+
+.corprate-wrapper p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+  }
+
+.main-footer {
+    color: var(--textColor);
+    background-color: var(--default);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-delivery {
+    font-size: 13px;
+    font-family: 'Poppins';
+    padding-top: 10px;
+}
+
+.footer-content {
+    border-left: 1px solid #707070;
+}
+
+.main-footer h4 {
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.main-footer li {
+    font-size: 11px;
+    line-height: 27px;
+    font-family: 'Poppins';
+}
+
+.footer-placeholder {
+    font-size: 11px;
+    font-family: 'Poppins';
+}
+
+#basic-addon2 {
+    background-color: #6B6B6B;
+    color: var(--textColor);
+    text-transform: uppercase;
+    font-size: 11px;
+    border: none;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px
+}
+.footer-row{
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+.footer-copyright{
+    font-size: 11px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        display: block;
+        opacity: 1;
+    }
+
+    .nav-cons_count {
+        display: none;
+    }
+
+    .nav-header {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .mission-image {
+        height: auto;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    nav a {
+        color: var(--textColor);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .whatToDo-title {
+        margin-top: 45px;
+    }
+
+    .mission-wrappers ul {
+        width: 100%;
+    }
+    .footer-content {
+        border-left: none;
+        padding: 30px 0;
+    }
+}
